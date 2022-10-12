@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="iconDiv"
+  >
+    <img
+      className="mt-1 mb-3"
+      height={40}
+      src="homeIcon.png"
+    />
+  </div>
+  <div>
+    <button
+      className="mt-2 mb-3 btn btn-success"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Home
+    </button>
+    <h3
+      className="favouritesHeading bg-success"
+    >
+      My Favourites
+    </h3>
+  </div>
+  <div>
+    <h3
+      className="emptyListOfFavouritesText"
+    >
+       You don't have anything in your favourites yet. 
+      <br />
+       You can search for items by clicking the home button above. 
+      <br />
+       Happy Searching!!! 
+    </h3>
+  </div>
+</div>
+`;

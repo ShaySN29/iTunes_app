@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+/****************************************************DISPLAY RESULT COMPONENT ****************************************************************/
+.individualCard {
+  float:left; 
+  height: auto;
+} 
+
+/****************************************************FAVOURITES BUTTON COMPONENT *************************************************************/
+.favouriteBarDiv {
+  display: flex;
+}
+
+.iconDiv {
+  float: left;
+}
+
+/***************************************************DISPLAY FAVOURITES LIST ******************************************************************/
+.favouritesHeading {
+  text-align: center;
+  color: white;
+  padding: 10px;
+} 
+
+.emptyListOfFavouritesText {
+  text-align: center;
+  color: rgb(1, 86, 1);
+  margin-top: 10%;
+}

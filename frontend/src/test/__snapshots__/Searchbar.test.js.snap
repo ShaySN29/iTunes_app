@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    className="navBar"
+  >
+    <nav
+      className="mb-4 navbar navbar-expand-lg navbar-light bg-success"
+    >
+      <div
+        className="container"
+      >
+        <form
+          className="d-flex"
+        >
+          <input
+            aria-label="Search"
+            className="me-3 form-control"
+            onChange={[Function]}
+            placeholder="Search"
+            type="search"
+          />
+          <select
+            aria-label="Default select example"
+            className="ms-2 form-select"
+            onChange={[Function]}
+          >
+            <option
+              value="all"
+            >
+              All
+            </option>
+            <option
+              value="music"
+            >
+              Music
+            </option>
+            <option
+              value="podcast"
+            >
+              Podcasts
+            </option>
+            <option
+              value="movie"
+            >
+              Movies
+            </option>
+            <option
+              value="tvShow"
+            >
+              TV Shows
+            </option>
+            <option
+              value="shortFilm"
+            >
+              Short Film
+            </option>
+            <option
+              value="audiobook"
+            >
+              Audiobook
+            </option>
+            <option
+              value="ebook"
+            >
+              Ebooks
+            </option>
+          </select>
+          <button
+            className="ms-2 btn btn-outline-light"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="searchResults"
+  />
+</div>
+`;

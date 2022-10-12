@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="favouriteBarDiv"
+>
+  <div
+    className="iconDiv"
+  >
+    <img
+      className="mt-1 mb-3"
+      height={40}
+      src="favouriteIcon.png"
+    />
+  </div>
+  <div>
+    <button
+      className="mt-2 mb-3 btn btn-success"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Favourites
+    </button>
+  </div>
+</div>
+`;

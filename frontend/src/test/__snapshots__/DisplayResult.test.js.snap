@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="individualCard"
+>
+  <div
+    className="displayCard mb-3 ms-2 card border-success"
+    style={
+      Object {
+        "width": "18rem",
+      }
+    }
+  >
+    <div
+      className="card-body"
+    >
+      <div
+        className="card-title h5"
+      />
+      <div
+        className="mb-2 text-muted card-subtitle h6"
+      />
+      <img
+        className="card-img-top"
+      />
+      <a
+        className="card-link"
+      >
+        More Details
+      </a>
+    </div>
+    <button
+      className="btn btn-outline-success"
+      disabled={false}
+      onClick={[Function]}
+      type="button"
+    >
+      Add to Favourites
+    </button>
+  </div>
+</div>
+`;
