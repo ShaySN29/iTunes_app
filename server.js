@@ -3,6 +3,7 @@ const cors = require('cors'); // Used to connect to full stack app or react app
 const morgan = require('morgan'); // Used to visualize requests when testing the server on postman
 const bodyParser = require('body-parser'); // Used to access content that is passed in the body of the HTTP request
 const helmet = require("helmet");
+const path = require('path');
 require('isomorphic-fetch'); // Used to make fetch calls to API
 
 // Using the index.js file in server.js
